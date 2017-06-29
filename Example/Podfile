@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XQDCamera_Example' do
+  pod 'XQDCamera', :path => '../'
+
+  target 'XQDCamera_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
