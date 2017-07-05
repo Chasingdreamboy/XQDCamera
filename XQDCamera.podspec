@@ -25,15 +25,17 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'EriceWang' => 'wangerdong@treefinance.com.cn' }
-  s.source           = { :git => '/Users/wangxiaodong/Desktop/Temporary/XQDCamera', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Chasingdreamboy/XQDCamera.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
-  s.source_files = 'XQDCamera/Classes/**/*'
-   s.resource_bundles = {
-     'XQDCameraResource' => ['XQDCamera/Assets/*']
-   }
-  s.public_header_files = 'XQDCamera/Classes/**/XQDCamera.h'
-   s.frameworks = 'UIKit'
-   s.dependency 'LLSimpleCamera','~> 3.0.0'
+  
+  s.resources = 'XQDCamera/Assets/XQDCameraResource.bundle'
+  s.public_header_files = 'XQDCamera/Classes/XQDCamera.h'
+  s.subspec 'sub' do |sub|
+  sub.source_files = 'XQDCamera/Classes/**/*'
+  sub.public_header_files = 'XQDCamera/Classes/**/*.h'
+  sub.frameworks = 'UIKit'
+ sub.dependency 'LLSimpleCamera','~> 3.0.0'
+  end
 end
