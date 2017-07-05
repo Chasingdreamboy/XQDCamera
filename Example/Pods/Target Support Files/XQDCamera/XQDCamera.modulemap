@@ -1,0 +1,6 @@
+framework module XQDCamera {
+  umbrella header "XQDCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}

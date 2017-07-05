@@ -1,0 +1,34 @@
+{
+  "name": "XQDCamera",
+  "version": "0.1.0",
+  "summary": "A short description of XQDCamera.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/acct<blob>=<NULL>/XQDCamera",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "EriceWang": "wangerdong@treefinance.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/Chasingdreamboy/XQDCamera.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "XQDCamera/Classes/**/*",
+  "resource_bundles": {
+    "XQDCameraResource": [
+      "XQDCamera/Assets/*"
+    ]
+  },
+  "public_header_files": "XQDCamera/Classes/**/XQDCamera.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "LLSimpleCamera": [
+      "~> 3.0.0"
+    ]
+  }
+}

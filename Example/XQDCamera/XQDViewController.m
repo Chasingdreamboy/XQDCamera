@@ -7,8 +7,9 @@
 //
 
 #import "XQDViewController.h"
+#import <XQDCamera/XQDCamera.h>
 
-@interface XQDViewController ()
+@interface XQDViewController ()<XQDCameraHolderViewDelegate>
 
 @end
 
@@ -18,6 +19,25 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    XQDCameraViewController *camera = [[XQDCameraViewController alloc] init];
+    camera.placeHolderType = XQDCameraViewPlaceholderTypeFront;
+    camera.delegate = self;
+//    camera.finishBlock = ^(UIImage *image) {
+//        
+//        UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+//        [imageView setImage:image];
+//        [self.view addSubview:imageView];
+//        
+//    };
+    
+    [self presentViewController:camera animated:YES completion:nil];
+}
+- (void)photoTaken:(UIImage *)img {
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    [imageView setImage:img];
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,6 @@
+framework module Pods_XQDCamera_Tests {
+  umbrella header "Pods-XQDCamera_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
