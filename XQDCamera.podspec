@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XQDCamera'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = 'A short description of XQDCamera.'
 
 # This description is used to generate tags and improve search results.
@@ -29,9 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
-  
-  s.resources = 'XQDCamera/Assets/XQDCameraResource.bundle'
   s.public_header_files = 'XQDCamera/Classes/XQDCamera.h'
+  s.source_files = 'XQDCamera/Classes//XQDCamera.h'
+  s.resources = 'XQDCamera/Assets/XQDCameraResource.bundle'
   s.subspec 'sub' do |sub|
   sub.source_files = 'XQDCamera/Classes/XQDCamera/*'
   #sub.public_header_files = 'XQDCamera/Classes/XQDCamera/*.h'
