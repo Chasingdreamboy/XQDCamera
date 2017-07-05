@@ -7,36 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051BEE7B648F5CF0F50B7270F52E41D3 /* XQDCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 514985747CC1DBBD5A6FD8B120A6319F /* XQDCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C6051E5CC18B49A6DAD5D585C847028 /* XQDCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88BCA036BBB0E6322695532BC8BCACF /* XQDCameraViewController.m */; };
+		0C6051E5CC18B49A6DAD5D585C847028 /* XQDCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DE9A1FA833381C524F8244587CE1F1 /* XQDCameraViewController.m */; };
 		171E605011E0F8BDD8A5A4F11D739509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530CB7468E244EF66E5B59A0FEFDF530 /* Foundation.framework */; };
-		3A68D606D105ABB24D654F9F4944AE57 /* UIView+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD6EE42E26E1BB80CC3519B60F16E7 /* UIView+Expand.m */; };
+		22DD3A4B988932E96AA43D51FF59516A /* UIView+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6D37FE401D47B2B8EA7C4491B255C7 /* UIView+Expand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A68D606D105ABB24D654F9F4944AE57 /* UIView+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22809B4A46E2D78CC9E3CDFB19E78DF4 /* UIView+Expand.m */; };
 		50FDA4B6EF077B96907B380CBC2D069C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530CB7468E244EF66E5B59A0FEFDF530 /* Foundation.framework */; };
+		618AEB8C2B7690DC1E85B37C99353779 /* XQDCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5C65AA7FB5315D974FB0C26373F7C0 /* XQDCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFA6C8761369D9948B8603962843205 /* XQDCameraHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 57BB2105E96C26C2F3AEFEF3361F0454 /* XQDCameraHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BA75619D93221C600DC1D963C33B2BC /* LLSimpleCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3997F80C54C12584E876449D84613F6 /* LLSimpleCamera.framework */; };
 		6F00E73D778B84F76501C601A448200B /* LLSimpleCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB78F671FD871F87BC803E55DD245443 /* LLSimpleCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E331E90BD124CED84E86DA388626F1 /* XQDCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 980A977D4BFD243DB15FFE3D44D4BE03 /* XQDCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8751C7833F8E133FF979E74073CEC2D2 /* XQDCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F72E5F749C2572FAD7645847364674 /* XQDCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7053AB93B2B146C7267932782C5C7A1F /* XQDCameraHolderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9AB770BC7759C6A10BC98B49AA1852 /* XQDCameraHolderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D67083E25755FFFE504C7960A5993B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530CB7468E244EF66E5B59A0FEFDF530 /* Foundation.framework */; };
 		96FE482A6CB0212EA110BB310F5C2099 /* LLSimpleCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863B13606DAD3366D9CF74E8618DD87 /* LLSimpleCamera-dummy.m */; };
 		9AF1B2D1A627DEEB02EB800D38E9BDBB /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FA175CC44F7860E223E6396291A152 /* LLSimpleCamera.m */; };
+		9EFD79CFF4EC7CFC45A6448474E8E1F0 /* XQDCameraHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A73532F21E816BC2CAAC5233090CFC6 /* XQDCameraHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A17945126D6DD295F269B37BF6540B34 /* XQDCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 514985747CC1DBBD5A6FD8B120A6319F /* XQDCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3B8D9FA20F3C79AEDA329A2904836C5 /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAB3972D54D1756145052C83B00E73C /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A845C67A731710C769FD77F24B40F071 /* UIView+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE915CBB8DBE68A50FF094883AE00E8 /* UIView+Expand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF6F42A1FE328C8302163A9AAAC2152C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD4B339756CF7C917E4C897F3D2A7C4 /* UIKit.framework */; };
 		B0C970CD9095E82180D620276B9D414D /* Pods-XQDCamera_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E63F5978363D3897EFAE82A091B8EED /* Pods-XQDCamera_Tests-dummy.m */; };
 		B3047163E78EAC88206B88EDA62F811E /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3535B4E8AD8F8BF3A66F07D3FDEF46 /* UIImage+FixOrientation.m */; };
-		B35751DA2ADA3D84741EB899623FE832 /* XQDCameraHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F71871B2659A09C07500CDA3A07A6D /* XQDCameraHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9CF7AB88CB7A4D8E500B22443282CB /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = F6363EF728F303DF8F76F5409B8C0FC3 /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDFF1354A0405B205DD9D0264503564E /* XQDCameraHolderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D122D9C4C3983911218971349B1B00 /* XQDCameraHolderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C09409AE6FEB280970F26AD59A18042F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675BDD14783241D2371A238CEBEC088D /* AVFoundation.framework */; };
-		C714AC17E873510B385740A5B3B475BB /* XQDCameraHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B2CC5190BDB94E7D54CB55594EBC47 /* XQDCameraHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAA4A5CBD323419BAC27E28AB25192FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530CB7468E244EF66E5B59A0FEFDF530 /* Foundation.framework */; };
 		CAAE033251CBCE3FDB4B1834CC2350F7 /* XQDCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8012E999CE293A914D176AFD898053E /* XQDCamera-dummy.m */; };
 		D487E3EB08C56AE29EFB8ED112859172 /* Pods-XQDCamera_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E94D318F91618A4A3ABBE2E50BCF9B /* Pods-XQDCamera_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7E9AD8E3886E65D4F70EC5272EE1447 /* Pods-XQDCamera_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0A0B55CD62441BABACDBCDCF4054AF /* Pods-XQDCamera_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1DC88702C306B62C3DAD204F057A6AE /* XQDCameraHolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52480A04CB6BBF90636F088696FDD347 /* XQDCameraHolderViewController.m */; };
+		E1DC88702C306B62C3DAD204F057A6AE /* XQDCameraHolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A8504F16FAEA7B41C965FFC6B3AF44 /* XQDCameraHolderViewController.m */; };
 		E9AAAD7626195BBB1D2AFE22EA1B230D /* XQDCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78932A866C987F4B1FD453FF0428BA7D /* XQDCameraResource.bundle */; };
 		F82B19F57C6B1DAE44CBC98E614BB761 /* Pods-XQDCamera_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE58B4E285C2BCB597BFBF2FBE801C4E /* Pods-XQDCamera_Example-dummy.m */; };
-		F85ED62FA6DF0CF5FC165D4490C5DF5A /* XQDCameraHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A640E89D2A44E51D764AE2A28F2BE5 /* XQDCameraHelper.m */; };
+		F85ED62FA6DF0CF5FC165D4490C5DF5A /* XQDCameraHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4007A290D90ECE454240D8FAEF2196 /* XQDCameraHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,56 +63,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A640E89D2A44E51D764AE2A28F2BE5 /* XQDCameraHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQDCameraHelper.m; sourceTree = "<group>"; };
+		0A73532F21E816BC2CAAC5233090CFC6 /* XQDCameraHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDCameraHeader.h; sourceTree = "<group>"; };
 		0D3AABEFC7B687C462A6F4B3A30391E2 /* Pods_XQDCamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XQDCamera_Example.framework; path = "Pods-XQDCamera_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		123ADCE349C820BF8515B7F137095223 /* XQDCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XQDCamera.modulemap; sourceTree = "<group>"; };
 		17B26074DB8F804E994570DDAC808CF8 /* XQDCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XQDCamera-prefix.pch"; sourceTree = "<group>"; };
 		1F6BCB05BD330AAAEAAD26D52C36CDB5 /* LLSimpleCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-prefix.pch"; sourceTree = "<group>"; };
 		1FAB3972D54D1756145052C83B00E73C /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FixOrientation.h"; path = "LLSimpleCamera/UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		22809B4A46E2D78CC9E3CDFB19E78DF4 /* UIView+Expand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Expand.m"; sourceTree = "<group>"; };
 		2294868610DF5D6CCEDF3949D5FD04F3 /* LLSimpleCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LLSimpleCamera.framework; path = LLSimpleCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2BF69981B0AF6664519F6E0D726137 /* Pods-XQDCamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQDCamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D3535B4E8AD8F8BF3A66F07D3FDEF46 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FixOrientation.m"; path = "LLSimpleCamera/UIImage+FixOrientation.m"; sourceTree = "<group>"; };
 		2E3E7AA416C4BB5FB01FB6D18619A698 /* Pods-XQDCamera_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XQDCamera_Example-resources.sh"; sourceTree = "<group>"; };
+		33A8504F16FAEA7B41C965FFC6B3AF44 /* XQDCameraHolderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQDCameraHolderViewController.m; sourceTree = "<group>"; };
 		34E94D318F91618A4A3ABBE2E50BCF9B /* Pods-XQDCamera_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XQDCamera_Example-umbrella.h"; sourceTree = "<group>"; };
 		3697D8BBFFAD81AAA97B47125E880F86 /* Pods-XQDCamera_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XQDCamera_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3CCAA231063A9203949020968402FB18 /* Pods_XQDCamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XQDCamera_Tests.framework; path = "Pods-XQDCamera_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44F72E5F749C2572FAD7645847364674 /* XQDCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDCameraViewController.h; sourceTree = "<group>"; };
 		4512D30C01A013BD26E9F8410AAF019B /* LLSimpleCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LLSimpleCamera.modulemap; sourceTree = "<group>"; };
+		4A5C65AA7FB5315D974FB0C26373F7C0 /* XQDCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDCameraViewController.h; sourceTree = "<group>"; };
 		4E63F5978363D3897EFAE82A091B8EED /* Pods-XQDCamera_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XQDCamera_Tests-dummy.m"; sourceTree = "<group>"; };
 		514985747CC1DBBD5A6FD8B120A6319F /* XQDCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XQDCamera-umbrella.h"; sourceTree = "<group>"; };
-		52480A04CB6BBF90636F088696FDD347 /* XQDCameraHolderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQDCameraHolderViewController.m; sourceTree = "<group>"; };
 		530CB7468E244EF66E5B59A0FEFDF530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5324629E61239F501C3E106D859C35B0 /* Pods-XQDCamera_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XQDCamera_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5582E54D81A63EF19A40BA7DD6CEF7BA /* Pods-XQDCamera_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XQDCamera_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57BB2105E96C26C2F3AEFEF3361F0454 /* XQDCameraHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDCameraHelper.h; sourceTree = "<group>"; };
 		5863B13606DAD3366D9CF74E8618DD87 /* LLSimpleCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera-dummy.m"; sourceTree = "<group>"; };
 		58FDD4C36E37640E4D03A8319F3C2C5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CFEA01CC6166E010E4D063C79514952 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		675BDD14783241D2371A238CEBEC088D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		68F71871B2659A09C07500CDA3A07A6D /* XQDCameraHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDCameraHeader.h; sourceTree = "<group>"; };
+		69DE9A1FA833381C524F8244587CE1F1 /* XQDCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQDCameraViewController.m; sourceTree = "<group>"; };
 		72F4E4A4E9C1C72D6DBCDB8C16C0736A /* XQDCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XQDCamera.xcconfig; sourceTree = "<group>"; };
 		78932A866C987F4B1FD453FF0428BA7D /* XQDCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = XQDCameraResource.bundle; sourceTree = "<group>"; };
 		7A8EF54483361E11758AC774126BB406 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BE915CBB8DBE68A50FF094883AE00E8 /* UIView+Expand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Expand.h"; sourceTree = "<group>"; };
-		86B2CC5190BDB94E7D54CB55594EBC47 /* XQDCameraHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDCameraHelper.h; sourceTree = "<group>"; };
+		7C9AB770BC7759C6A10BC98B49AA1852 /* XQDCameraHolderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDCameraHolderViewController.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94DFCB391AA91649B9CB4F08DF20F8A2 /* Pods-XQDCamera_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XQDCamera_Example.modulemap"; sourceTree = "<group>"; };
-		95D122D9C4C3983911218971349B1B00 /* XQDCameraHolderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDCameraHolderViewController.h; sourceTree = "<group>"; };
-		980A977D4BFD243DB15FFE3D44D4BE03 /* XQDCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDCamera.h; sourceTree = "<group>"; };
 		9D0A0B55CD62441BABACDBCDCF4054AF /* Pods-XQDCamera_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XQDCamera_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A380264384BFCAE8128ED0C927EDEC20 /* Pods-XQDCamera_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XQDCamera_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A56D6DCE757BB325EC0D95930124A7A6 /* LLSimpleCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLSimpleCamera.xcconfig; sourceTree = "<group>"; };
-		A88BCA036BBB0E6322695532BC8BCACF /* XQDCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQDCameraViewController.m; sourceTree = "<group>"; };
+		AE4007A290D90ECE454240D8FAEF2196 /* XQDCameraHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQDCameraHelper.m; sourceTree = "<group>"; };
 		AEB6FCECA0D1C6216C309FE014CFDA49 /* Pods-XQDCamera_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XQDCamera_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF4FF0732E4F5C5C150FF701967ABFF2 /* Pods-XQDCamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQDCamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B10481BBA5ADC52353FEB97D4859B32A /* Pods-XQDCamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQDCamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B3997F80C54C12584E876449D84613F6 /* LLSimpleCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLSimpleCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA862198ECD6B74BA5A6A49F50FEAD71 /* Pods-XQDCamera_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XQDCamera_Tests-resources.sh"; sourceTree = "<group>"; };
+		BB6D37FE401D47B2B8EA7C4491B255C7 /* UIView+Expand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Expand.h"; sourceTree = "<group>"; };
 		BB78F671FD871F87BC803E55DD245443 /* LLSimpleCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-umbrella.h"; sourceTree = "<group>"; };
 		BE58B4E285C2BCB597BFBF2FBE801C4E /* Pods-XQDCamera_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XQDCamera_Example-dummy.m"; sourceTree = "<group>"; };
 		C0B8334F6677D1C1E7DBC2C517C12604 /* Pods-XQDCamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQDCamera_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C8012E999CE293A914D176AFD898053E /* XQDCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XQDCamera-dummy.m"; sourceTree = "<group>"; };
 		CBC9A4DD9EC3C8549CF7F407660FDAC5 /* Pods-XQDCamera_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XQDCamera_Tests.modulemap"; sourceTree = "<group>"; };
-		D8CD6EE42E26E1BB80CC3519B60F16E7 /* UIView+Expand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Expand.m"; sourceTree = "<group>"; };
 		D9FA175CC44F7860E223E6396291A152 /* LLSimpleCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLSimpleCamera.m; path = LLSimpleCamera/LLSimpleCamera.m; sourceTree = "<group>"; };
 		DDD4B339756CF7C917E4C897F3D2A7C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DF31404344DB45E9E95743DB14DBCF51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -161,23 +159,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D7F48FDE0B7FD743668822DE23A5FC1 /* XQDCamera */ = {
-			isa = PBXGroup;
-			children = (
-				7BE915CBB8DBE68A50FF094883AE00E8 /* UIView+Expand.h */,
-				D8CD6EE42E26E1BB80CC3519B60F16E7 /* UIView+Expand.m */,
-				68F71871B2659A09C07500CDA3A07A6D /* XQDCameraHeader.h */,
-				86B2CC5190BDB94E7D54CB55594EBC47 /* XQDCameraHelper.h */,
-				02A640E89D2A44E51D764AE2A28F2BE5 /* XQDCameraHelper.m */,
-				95D122D9C4C3983911218971349B1B00 /* XQDCameraHolderViewController.h */,
-				52480A04CB6BBF90636F088696FDD347 /* XQDCameraHolderViewController.m */,
-				44F72E5F749C2572FAD7645847364674 /* XQDCameraViewController.h */,
-				A88BCA036BBB0E6322695532BC8BCACF /* XQDCameraViewController.m */,
-			);
-			name = XQDCamera;
-			path = XQDCamera;
-			sourceTree = "<group>";
-		};
 		1C9210C43ADB2490A5DB82412B0C8E62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,21 +188,30 @@
 			path = "Target Support Files/Pods-XQDCamera_Example";
 			sourceTree = "<group>";
 		};
-		5BC894135C5A1B726ABEF538017A08BF /* XQDCamera */ = {
-			isa = PBXGroup;
-			children = (
-				7355B1910042CF38780D89C34D61FF6E /* Classes */,
-			);
-			name = XQDCamera;
-			path = XQDCamera;
-			sourceTree = "<group>";
-		};
 		5C15E3BF395C0934BC4B98E7004A62C9 /* sub */ = {
 			isa = PBXGroup;
 			children = (
-				5BC894135C5A1B726ABEF538017A08BF /* XQDCamera */,
+				69A38303EDCB74224D303A6A0874B671 /* XQDCamera */,
 			);
 			name = sub;
+			sourceTree = "<group>";
+		};
+		64642DFA1C7896CCA67C4DCBC590F4B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF60AFA0A9A4F694BF5FC00D8233B198 /* XQDCamera */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		69A38303EDCB74224D303A6A0874B671 /* XQDCamera */ = {
+			isa = PBXGroup;
+			children = (
+				64642DFA1C7896CCA67C4DCBC590F4B1 /* Classes */,
+			);
+			name = XQDCamera;
+			path = XQDCamera;
 			sourceTree = "<group>";
 		};
 		7197DCC19C38D8041DDB9852DD714DD3 /* Pods */ = {
@@ -230,16 +220,6 @@
 				AD156EACCBF5D0E4D67F0A31537667D4 /* LLSimpleCamera */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7355B1910042CF38780D89C34D61FF6E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				980A977D4BFD243DB15FFE3D44D4BE03 /* XQDCamera.h */,
-				0D7F48FDE0B7FD743668822DE23A5FC1 /* XQDCamera */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -333,6 +313,23 @@
 			path = "../Target Support Files/LLSimpleCamera";
 			sourceTree = "<group>";
 		};
+		CF60AFA0A9A4F694BF5FC00D8233B198 /* XQDCamera */ = {
+			isa = PBXGroup;
+			children = (
+				BB6D37FE401D47B2B8EA7C4491B255C7 /* UIView+Expand.h */,
+				22809B4A46E2D78CC9E3CDFB19E78DF4 /* UIView+Expand.m */,
+				0A73532F21E816BC2CAAC5233090CFC6 /* XQDCameraHeader.h */,
+				57BB2105E96C26C2F3AEFEF3361F0454 /* XQDCameraHelper.h */,
+				AE4007A290D90ECE454240D8FAEF2196 /* XQDCameraHelper.m */,
+				7C9AB770BC7759C6A10BC98B49AA1852 /* XQDCameraHolderViewController.h */,
+				33A8504F16FAEA7B41C965FFC6B3AF44 /* XQDCameraHolderViewController.m */,
+				4A5C65AA7FB5315D974FB0C26373F7C0 /* XQDCameraViewController.h */,
+				69DE9A1FA833381C524F8244587CE1F1 /* XQDCameraViewController.m */,
+			);
+			name = XQDCamera;
+			path = XQDCamera;
+			sourceTree = "<group>";
+		};
 		D6DD37EE1EEFCE4262EFDD9E153DCDA2 /* XQDCamera */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,17 +404,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85FDD0191B36ACC4DF56C9019C02DD55 /* Headers */ = {
+		DE109C73C57290C7EB1681F4B16BC283 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A845C67A731710C769FD77F24B40F071 /* UIView+Expand.h in Headers */,
-				051BEE7B648F5CF0F50B7270F52E41D3 /* XQDCamera-umbrella.h in Headers */,
-				86E331E90BD124CED84E86DA388626F1 /* XQDCamera.h in Headers */,
-				B35751DA2ADA3D84741EB899623FE832 /* XQDCameraHeader.h in Headers */,
-				C714AC17E873510B385740A5B3B475BB /* XQDCameraHelper.h in Headers */,
-				BDFF1354A0405B205DD9D0264503564E /* XQDCameraHolderViewController.h in Headers */,
-				8751C7833F8E133FF979E74073CEC2D2 /* XQDCameraViewController.h in Headers */,
+				22DD3A4B988932E96AA43D51FF59516A /* UIView+Expand.h in Headers */,
+				A17945126D6DD295F269B37BF6540B34 /* XQDCamera-umbrella.h in Headers */,
+				9EFD79CFF4EC7CFC45A6448474E8E1F0 /* XQDCameraHeader.h in Headers */,
+				6AFA6C8761369D9948B8603962843205 /* XQDCameraHelper.h in Headers */,
+				7053AB93B2B146C7267932782C5C7A1F /* XQDCameraHolderViewController.h in Headers */,
+				618AEB8C2B7690DC1E85B37C99353779 /* XQDCameraViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +469,7 @@
 				74412303C84E18D8F33A946759525C6E /* Sources */,
 				C2C43C65076222EAADDAFCD1D913286A /* Frameworks */,
 				2DAA45BEEB848C156BA611C9D83B32CE /* Resources */,
-				85FDD0191B36ACC4DF56C9019C02DD55 /* Headers */,
+				DE109C73C57290C7EB1681F4B16BC283 /* Headers */,
 			);
 			buildRules = (
 			);

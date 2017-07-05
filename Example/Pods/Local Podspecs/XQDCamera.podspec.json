@@ -1,6 +1,6 @@
 {
   "name": "XQDCamera",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of XQDCamera.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/acct<blob>=<NULL>/XQDCamera",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Chasingdreamboy/XQDCamera.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "7.0"
@@ -23,8 +23,8 @@
   "subspecs": [
     {
       "name": "sub",
-      "source_files": "XQDCamera/Classes/**/*",
-      "public_header_files": "XQDCamera/Classes/**/*.h",
+      "source_files": "XQDCamera/Classes/XQDCamera/*",
+      "public_header_files": "XQDCamera/Classes/XQDCamera/*.h",
       "frameworks": "UIKit",
       "dependencies": {
         "LLSimpleCamera": [

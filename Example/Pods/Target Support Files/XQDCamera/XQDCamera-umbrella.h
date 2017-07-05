@@ -11,7 +11,6 @@
 #endif
 
 #import "XQDCamera.h"
-#import "XQDCamera.h"
 #import "UIView+Expand.h"
 #import "XQDCameraHeader.h"
 #import "XQDCameraHelper.h"

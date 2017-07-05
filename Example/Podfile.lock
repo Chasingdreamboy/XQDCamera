@@ -1,8 +1,8 @@
 PODS:
   - LLSimpleCamera (3.0.0)
-  - XQDCamera (0.0.1):
-    - XQDCamera/sub (= 0.0.1)
-  - XQDCamera/sub (0.0.1):
+  - XQDCamera (0.0.2):
+    - XQDCamera/sub (= 0.0.2)
+  - XQDCamera/sub (0.0.2):
     - LLSimpleCamera (~> 3.0.0)
 
 DEPENDENCIES:
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   LLSimpleCamera: 3c41b46917f9ca53b91ef9c0cf24a75ce0ab4cd8
-  XQDCamera: b3534bef1fbfbb8280400fc479d64e08451d2522
+  XQDCamera: 18aa5739703106f1bf4f9d3d47162afbdeea76bc
 
 PODFILE CHECKSUM: 1cec92c94dd11d42a0ebb8e2dbf5cd38348eb7cb
 

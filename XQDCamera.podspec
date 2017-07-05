@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XQDCamera'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of XQDCamera.'
 
 # This description is used to generate tags and improve search results.
@@ -33,8 +33,8 @@ TODO: Add long description of the pod here.
   s.resources = 'XQDCamera/Assets/XQDCameraResource.bundle'
   s.public_header_files = 'XQDCamera/Classes/XQDCamera.h'
   s.subspec 'sub' do |sub|
-  sub.source_files = 'XQDCamera/Classes/**/*'
-  sub.public_header_files = 'XQDCamera/Classes/**/*.h'
+  sub.source_files = 'XQDCamera/Classes/XQDCamera/*'
+  #sub.public_header_files = 'XQDCamera/Classes/XQDCamera/*.h'
   sub.frameworks = 'UIKit'
  sub.dependency 'LLSimpleCamera','~> 3.0.0'
   end
